@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title> Ejercicio de introducción a HTML en OpeenBootCamp>
+    </head>     
+<body>
+<!--Este es mi primer comentario de dos lineas 
+aprendiendo a documentar mi codigo con OpeenBootCamp-->
+ <div>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=OjBNmrN3zjs&ab_channel=Astronomiaweb">Que tan grande es el sistema solar y el universo?</a></li>
+    <li><a href="https://www.youtube.com/watch?v=xzEMq4IA8E4&ab_channel=Astronomiaweb">Por que la velocidad de la luz no se puede superar?</a></li>
+    <li><a href="https://www.youtube.com/watch?v=QylcH69Lw0w&ab_channel=Astronomiaweb">Las 20 mentiras de astronomia y ciencia que aun crees..</a></li>
+  </ul>
+ </div>
+ </body>
+</html>
+
