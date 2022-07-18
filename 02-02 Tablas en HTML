@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+             <head>
+              <meta charset="UTF-8"
+           <title>
+           </title>
+            </head>
+      <body>
+           <table>
+                <tr>
+                 <td>Titulo</td>
+                 <td>Autor</td>
+                 <td>Año de publicacion</td>
+                 <td>Enlace</td>
+                </tr>
+                <tr>
+                 <td>Nunca mas</td>
+                 <td>Conadep</td>
+                 <td>2016</td>
+                 <td>https://www.amazon.com/-/es/CONADEP-ebook/dp/B08DX12VR8/ref=sr_1_4?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3MUJB5GA52FH2&keywords=nunca+mas+conadep&qid=1656429253&sprefix=nunca+mas+conadep%2Caps%2C228&sr=8-4</td>
+                </tr>
+                <tr>
+                 <td>The universe in a nutshell</td>
+                 <td>Stephen Hawking</td>
+                 <td>2001</td>
+                 <td>https://www.amazon.com/-/es/Stephen-Hawking/dp/055380202X/ref=sr_1_4?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=32AIV1UIJDNWP&keywords=stephen+hawking+book&qid=1656429487&sprefix=stephen+hawking+libro%2Caps%2C341&sr=8-4</td>
+                </tr>
+                <tr>
+                 <td>El espacio es una cuestion de tiempo (Einstein, la teoria de la relatividad)</td>
+                 <td>Blanco Laserna David</td>
+                 <td>2015</td>
+                 <td>https://www.amazon.com/-/es/Blanco-Laserna-David/dp/B00GX4W9U6</td>
+                </tr>
+           </table>
+           </body>
+           </html>
