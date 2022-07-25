@@ -1,0 +1,18 @@
+.div-1,div-1{
+background-color:red;
+/*por defecto tienen display:block;*/
+}
+.span-1{
+background-color:aquamarine;
+/*display:inline;por defecto tienen inline*/
+}
+.span-2{
+background-color:aquamarine;
+/*display:inline;*/
+/*height:500px;*/
+float:left;
+  .img{
+  width:50px;
+  height:50px;
+  display:inline-block;
+  }
