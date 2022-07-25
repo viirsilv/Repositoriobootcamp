@@ -1,0 +1,27 @@
+/*para practicar en codepen.io*/
+.flex {
+flex-direction:row-reverse;
+background-color:yellow;
+height:300px;
+justify-content:space-around;
+display:flex; /*display flex posiciona de una manera ordenada, todo lo que esta dentro en el flex*/
+  /*flex-wrap:wrap;*/
+  align-items:center;
+}
+.contenido-1{
+background-color:white;
+height:200px;
+width:100px;
+border:1px solid blue;
+}
+.contenido-2{
+background-color:white;
+  height:200px;
+  width:100px;
+  border:1px solid blue;
+}
+.contenido-3{
+background-color:white;
+height:200px;
+border:1px solid pink;
+}
