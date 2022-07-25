@@ -1,0 +1,11 @@
+.contenedor-hidden{
+  background-color:bisque;
+  width:300px;
+  height:100px;
+  padding:15px;
+  /*overflow:hidden (todo lo que sobresale se oculta)*/
+  /*overflow:scroll (se crea una barra que me permite ver todo el contenido)*/
+  /*overflow:visible (es por defecto)*/
+  /*overflow:auto (nos optimiza el parrafo, solo pone las barras donde es necesario)
+  podemos usar overflow-x o overflow-y para elegir que barra mostrar*/
+}
