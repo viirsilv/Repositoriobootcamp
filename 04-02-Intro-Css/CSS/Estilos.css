@@ -10,3 +10,16 @@ p#primera-noticia{
 color:green;
 font-size:12pt;
 }
+segunda-noticia{
+color:darkmagenta;
+}
+.encabezado{
+  font-size:24pt;
+  text-transform:uppercase;
+}
+*{
+color:yellow;}
+
+/*Para los id  se utiliza la "almohadilla #" y para las class se utiliza "punto."
+para uso universal utilizamos el "asterisco *" se va a aplicar a todas nuestras etiquetas
+que todavia no tengan un color definido*/
