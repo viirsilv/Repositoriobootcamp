@@ -18,7 +18,8 @@ color:darkmagenta;
   text-transform:uppercase;
 }
 *{
-color:yellow;}
+color:yellow;
+}
 
 /*Para los id  se utiliza la "almohadilla #" y para las class se utiliza "punto."
 para uso universal utilizamos el "asterisco *" se va a aplicar a todas nuestras etiquetas
