@@ -20,6 +20,12 @@ color:darkmagenta;
 *{
 color:yellow;
 }
+*warning{
+color:red;
+}
+.autor,fecha,ubicacion{
+text-decoration:underline;
+}
 
 /*Para los id  se utiliza la "almohadilla #" y para las class se utiliza "punto."
 para uso universal utilizamos el "asterisco *" se va a aplicar a todas nuestras etiquetas
