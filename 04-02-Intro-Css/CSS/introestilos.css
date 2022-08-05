@@ -17,3 +17,7 @@ background-color:pink;
   background-image:url("");/*Imagen de fondo con url, en este caso en la parte del div que tiene la class:fondo*/
   background-position:right center;
 }
+.fondo-interno{
+  background-image:url("imagenes/fondo.jpg");
+  background-position:left buttom;
+  }
