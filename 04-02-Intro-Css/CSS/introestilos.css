@@ -21,3 +21,24 @@ background-color:pink;
   background-image:url("imagenes/fondo.jpg");
   background-position:left buttom;
   }
+
+/*Tamaños*/
+.ancho{
+background-color:green;
+width:10px;
+}
+.alto{
+background-color:aquamarine;
+height:200px;
+width:300px;
+}
+
+.tarjeta{
+border-style:solid;
+border-color:rgb(150,150,150);
+border-width:1px;
+/*border-top:none;*/
+padding:10px 20px;
+/*padding:10px 20px 30px 40px;*/
+margin:10px 20px 30px 40px;
+}
