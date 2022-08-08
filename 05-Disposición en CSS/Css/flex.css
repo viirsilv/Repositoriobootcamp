@@ -1,6 +1,6 @@
 /*para practicar en codepen.io*/
 .flex {
-flex-direction:row-reverse;
+flex-direction:row-reverse; /*los contenedores van a cambiar de lugar primero el ultimo*/
 background-color:yellow;
 height:300px;
 justify-content:space-around;
