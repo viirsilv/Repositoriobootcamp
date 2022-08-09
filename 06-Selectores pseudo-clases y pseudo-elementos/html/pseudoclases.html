@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pseudo-Clases</title>
+  <!--https://www.w3schools.com/css/css_pseudo_classes.asp-->
+  <style>
+    *{
+    padding:0;
+    margin:0;
+    }
+    .hover{
+    width:300px;
+    hight:100px;
+      background-color:bisque;
+    }
+    .hover:hover{/*se activa en cuanto el raton pasa por encima*/
+      background-color:burlywood;
+    }
+    .listado{
+      padding:13px;
+    background-color:aquamarine;
+    }
+    .listado p:first-child{ /*hace referencia a todas las clases listado del primer elemento*/
+    color:white;
+    }
+    a:link{/*Link no visitado todavia*/
+    color:deeppink;
+    }
+    a:visited{
+      color:crimson;
+    }
+    a:hover{
+    color:pink;
+    }
+    a:active{
+    color:greenyellow;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="hover">
+    <p>
+      "Todo debe simplificarse lo máximo posible, pero no más".
+      "El secreto de la creatividad es saber cómo esconder tus fuentes".
+      "Toda la ciencia no es más que un refinamiento del pensamiento cotidiano".
+      "La educación es lo que queda una vez que olvidamos todo lo que aprendió en la escuela".
+    </p>
+  </div>
+  <div class="Listado">
+    <p>párrafo 1</p>
+    <p>párrafo 2</p>
+  </div>
+  <div class="enlaces">
+    <a href="http://google.com" target="_blank">Enlace a google</a>
+    <a href="http://google.com" target="_blank">Enlace a marca</a>
+  </div>
+    </body>
+</html>
+  
