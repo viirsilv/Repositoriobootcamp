@@ -1,1 +1,14 @@
+/* Pero tendriamos que escribirle a cada parrafo el p-contenedor
+.p-contenedor{
+color:green;
+}*/
 
+/*En cambio asi, solamente ponemos la clase al div*/
+
+.contenedor p{
+color:green;
+}
+
+.contenedor #boton-contenedor{
+background-color:yellow;
+}
