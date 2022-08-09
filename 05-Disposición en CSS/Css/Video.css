@@ -2,6 +2,8 @@
 padding:0;
 margin:0;
 }
+/*Esto hace que se saquen todos los margenes y padding que vienen por defecto*/
+
 html{
 font-family:Helvetica;
 color:white;
