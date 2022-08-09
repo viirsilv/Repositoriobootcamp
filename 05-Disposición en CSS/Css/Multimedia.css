@@ -1,19 +1,24 @@
+*{
+padding:0;
+margin:0;
+}
+
 .imagen-principal{
 width:100px;
 opacity:0.5;
 }
-.imagen-principal:hover{
+.imagen-principal:hover{ /*el hover sirve para cuando pasamos el cursor por encima de la imagen se active*/
 opacity:1;
 }
 .galeria{
 display:flex;
 flex-wrap:wrap;
-gap:10px;
+gap:10px; /*el gap es el espacio entre las imagenes*/
 }
 .imagen-galeria{
 width:150px;
 }
 .imagen-galeria:hover{
 opacity:0.3;
-cursor:pinter;
+cursor:pinter; /*hace que el mouse aparezca como una mano*/
 }
