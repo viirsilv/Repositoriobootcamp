@@ -1,0 +1,44 @@
+/*Con 1 : accedemos a las pseudoclases y con 2 :: accedemos a los pseudoelementos*/
+
+.contenedor{
+width:300px;
+hight:100px;
+background-color:aquamarine;
+} 
+
+span.frase{
+font-style:italic;
+}
+
+span.frase::before{
+content:´<<´;
+font-size:xx-small;
+}
+
+span.frase::after{
+content:´>>´;
+font-size:xx-small;
+}
+
+.libro{
+background-color:bisque;
+padding:15px;
+font-family:arial;
+}
+
+.libro p::first-letter{
+font-size:xx-large;
+}
+
+.libro p.:first-line{
+color:white;
+}
+
+.libro p::selection{ /*sirve para cambiar el color de lo que voy seleccionando*/
+background-color:chocolate;
+color:lime;
+}
+
+.listado ul li::marker{
+color:red;
+}
