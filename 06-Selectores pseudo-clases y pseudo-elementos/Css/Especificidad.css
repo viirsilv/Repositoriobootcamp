@@ -1,0 +1,26 @@
+/*A igualdad de condiciones,
+se aplicara el segundo color porque el primero ya ha sido sobreescrito
+h1{
+color:blue;
+}*/
+
+/*El id tiene una especificidad mayor que la class, y la class es mayor que la etiqueta
+la especificidad es el numero que nos marca adelante cuando ponemos el cursor por encima de id,class o etiqueta
+por ejemplo (1 0 0)*/
+
+h1#h1-id .h1-class{
+color:darksalmon;
+}
+
+.h1-class{
+color:yellow;
+}
+
+h1{
+color:blue !important; /*Este va a ser el estilo que prevalezca(se imponga) sobre todos los demas,
+ya que tiene la etiq !important, EVITAR en la medida de lo posible el important*/
+}
+
+p{
+color:red;
+}
