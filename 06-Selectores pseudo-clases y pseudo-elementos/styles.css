@@ -4,13 +4,13 @@ body {
     justify-content: center;
     align-items: center;
 }
-.btn:hover {
+.boton:hover {
     background-color: green;
     color: white;
 }
-.btn::before {
+.boton::before {
     content: "Pasa por encima"
 }
-.btn:hover::before {
+.boton:hover::before {
     content:"¡Hecho!"
 }
