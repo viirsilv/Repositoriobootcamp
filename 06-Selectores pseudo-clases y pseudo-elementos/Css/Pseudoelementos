@@ -6,6 +6,12 @@ hight:100px;
 background-color:aquamarine;
 } 
 
+/*El selector de class pesa más, tiene más especificidad que el selector de etiqueta,
+por eso el div con el background blue aparecera tachado*/
+div{
+background-color:blue;
+}
+
 span.frase{
 font-style:italic;
 }
