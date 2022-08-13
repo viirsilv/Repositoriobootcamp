@@ -13,22 +13,56 @@
   gap:20px;
 }
 
+.botones{
+  align-self:flex-start;
+  display:flex;
+  gap:20px;
+}
+
 .google-btn{
   background-color:#1A73E8;
   border:none;
   border-radius:5px;
   height:40px;
   display:flex;
+  align-items:center;
+  padding:2px;
+  cursor:pointer; /*el curso es una mano cuando pasa por el boton*/
+}
+
+.google-btn:hover{
+  opacity:0.75;
 }
 
 .google-btn picture{
   width:30px;
-  height:30px;
+  height:35px;
   background-color:white;
+  border-radius:2px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.google-btn picture img{
+width:75%;
 }
 
 .google-btn span{
   color:white;
   font-weight:500;
   padding:15px;
+}
+
+.twitter-btn{
+  color:#bbb;
+  background-color:#eee;
+  border:none;
+  border-radius:5px;
+  width:40px;
+  cursor:pointer;
+}
+
+.twitter-btn:hover{
+background-color:#ddd;
 }
