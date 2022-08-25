@@ -1,1 +1,44 @@
+.padre{
+  width:400px;
+  height:400px;
+  background-color:blue;
+}
 
+.hijo{
+  width:50%;
+  height:50%;
+  background-color:beige;
+  animation:traslacion 4s ease-in-out infinite forwards alternate;
+}
+  /*el primer valor es la traslacion y el segundo es el delay
+  transition:transform 1s ease-in 2s;el cuadrado se traslada de un lado al otro con el delay de 2s 
+  y se cambia al violeta con herramientas puedo cambiarlo a mi manera para previsualizarlo*/
+
+.padre:hover .hijo{
+/*transform:translateX(100%);
+  background-color:blueviolet;
+  animation:traslacion 4s ease-in-out infinite forwards alternate; 
+  hace la traslacion infinita
+  el alternate hace que la direccion cambie esto si hago hover pero puedo decirle q lo haga siempre en .hijo*/
+  animation-play-state:paused; /*si hago hover se para la traslacon*/
+}
+
+@grayframes traslacion{
+  0%{
+  background-color:brown;
+  transform:translateX(0%)translateY(0%);
+  }
+  25%{
+  transform:traslateX(100%) translateY(0%);
+  }
+  50%{
+  transform:traslateX(100%) translateY(100%)
+  }
+  75%{
+  transform:traslateX(0%) translateY(100%)
+  }
+  100%{
+  background-color:darkorange;
+  transform:traslateX(0%) translateX(0%);
+  }
+}
