@@ -1,0 +1,23 @@
+/*para practicar https://codepen.io/enxaneta/full/adLPwv*/
+.contenedor{
+    background-color: yellow;
+    padding:0.25rem;
+    display: flex;
+    gap:0.5rem;
+    min-height: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /*el eje principal utiliza la propiedad 
+    justify-content: ej center;
+    y el eje secundario se utiliza align-items: ej center;
+    flex-direction: column;*/
+}
+.item{
+    background-color: darksalmon;
+    padding:0.25rem;
+    width: 10rem;
+}
+.item2{
+    align-self: stretch;
+}
