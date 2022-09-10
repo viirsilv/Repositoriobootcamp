@@ -1,0 +1,33 @@
+body {
+    padding: 20;
+    margin: 0;
+}
+.escenario {
+    margin:10px 0px;
+    border: 1px solid black;
+    padding:10px;
+}
+.escenario-1 {
+    width: 100%;
+}
+.escenario-2 {
+    width: 50%;
+}
+/*en px da igual donde este, el tamaño siempre va a ser fijo
+en este caso siempre sera 200px*/
+.px{
+    background-color: brown;
+    width: 200px;
+}
+/*el porcentaje hace referencia a la mitad 
+por que es 50% de su elemento padre(en este caso el div)*/
+.porcentaje{
+    background-color:yellow;
+    width: 50%;
+}
+/*El view hace referencia a la mitad 
+porque es 50vw de la pantalla en la que se vea el codigo*/
+.view{
+    background-color: aqua;
+    width: 50vw;
+}
