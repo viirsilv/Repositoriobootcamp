@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container py-4">
+        <form>
+            <div class="mb-3">
+                <label class="form-label" for="nombre">Introduce tu nombre</label>
+                <input id="nombre" type="text" class="form-control" placeholder="tu nombre" disabled/>
+                <div class="form-text">Introduce tu nombre de pila</div>
+            </div>
+            <div class="mb-3">
+                <input type="checkbox" id="check-mayor-edad" class="form-check.input"/>
+                <label class="form-check-label" form="check-mayor-edad">Eres mayor de edad?</label>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="apellido">Introduce tu apellido</label>
+                <input id="apellido" type="text" class="form-control-plaintest" placeholder="tu apellido" value="villar"/>
+                <div class="form-text">Intoduce tu apellido</div>
+            </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label" form-control-sm>Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Default file input example</label>
+                    <input class="form-control" type="file" id="formFile">
+                  </div>
+                  <div class="mb-3">
+                    <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+                    <input class="form-control" type="file" id="formFileMultiple" multiple>
+                  </div>
+                  <div class="mb-3">
+                    <label for="formFileDisabled" class="form-label">Disabled file input example</label>
+                    <input class="form-control" type="file" id="formFileDisabled" disabled>
+                  </div>
+                  <div class="mb-3">
+                    <label for="formFileSm" class="form-label">Small file input example</label>
+                    <input class="form-control form-control-sm" id="formFileSm" type="file">
+                  </div>
+                  <div>
+                    <label for="formFileLg" class="form-label">Large file input example</label>
+                    <input class="form-control form-control-lg" id="formFileLg" type="file">
+                  </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <div class="mb-3">
+                    <input type="color" class="form-control form-control-color"/>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleDataList" class="form-label">Selecciona tu ciudad</label>
+                </div>
+                <div class="mb-3">
+                    <input class="form-control"
+                    list="datalistOptions"
+                    id="exampleDataList"
+                    placeholder="Type to search..."/>
+                    <datalist id="datalistOptions">
+                        <option value="san sebastian"/>
+                        <option value="madrid"/>
+                        <option value="buenos aires"/>
+                        <option value="barcelona"/>
+                    </datalist>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</html>
