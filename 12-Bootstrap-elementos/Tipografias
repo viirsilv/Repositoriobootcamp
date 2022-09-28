@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipografias</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1>Este es un h1</h1>
+        <h2>Este es un h2</h2>
+        <h3>Este es un h3</h3>
+        <h4>Este es un h4</h4>
+        <h5>Este es un h5</h5>
+        <h6>Este es un h6</h6>
+
+        <p class="h1">Esta es una <span class="text-muted"> class 1</span></p>
+        <p class="h2">Esta es una class h2</p>
+        <p class="h3">Esta es una class h3</p>
+        <p class="h4">Esta es una class h4</p>
+        <p class="h5">Esta es una class h5</p>
+        <p class="h6">Esta es una class h6</p>
+
+        <h1 class="display-1">Display 1</h1>
+        <h2 class="display-2">Display 2</h2>
+        <h3 class="display-3">Display 3</h3>
+        <h4 class="display-4">Display 4</h4>
+        <h5 class="display-5">Display 5</h5>
+        <h6 class="display-6">Display 6</h6>
+
+        <p class="lead">La ética de <mark>Aristóteles</mark></p>
+        <p>
+            La ética de <abbr title="Aristóteles">Ar</abbr> es teleológica,<del>es decir</del>, que identifica
+            el bien con un fin. El filósofo defiende esta idea porque entiende
+            que cuando los hombres actúan es porque buscan alcanzar un objetivo concreto, 
+            principalmente, la felicidad en la vida.
+        </p>
+        <p>
+            Platón fue un <figcaption class="blockquote-footer">Filosofo griego<cite title="source title"> Seguidor de socrates</cite></figcaption>y maestro de Aristóteles. En 387 a. C.
+            fundó la Academia de Atenas, institución que continuaría a lo largo de más de novecientos
+            años y a la que Aristóteles acudiría desde Estagira 
+            a estudiar filosofía alrededor del 367 a
+        </p>
+        <p>
+            Este es un párrafo donde vamos a tener una lista
+            <ul class="list-unstyled">
+                <li class="list-inline-item">Elemento 1</li>
+                <li class="list-inline-item">Elemento 2</li>
+                <li>Elemento 3</li>
+                <li>Elemento 4</li>
+            </ul>
+        </p>
+        <p class="text-end text-sm-center text-md-start">Este es un texto responsive</p>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</html>
